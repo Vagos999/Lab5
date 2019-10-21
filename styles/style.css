@@ -1,0 +1,42 @@
+body{
+    background: lightskyblue;
+}
+h1{
+    color: indigo;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background: snow;
+    font-family: Tahoma;
+}
+
+td{
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    color: purple;
+    font-weight: bolder;
+
+}
+figcaption{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-weight: bolder;
+}
+span{
+    font-size: smaller;
+    width: fit-content;
+    vertical-align: super;
+}
+th{
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+th:first-child{
+    border-style: unset;
+    border-color: unset;
+}
